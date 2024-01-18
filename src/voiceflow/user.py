@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from json.decoder import JSONDecodeError
+from requests import JSONDecodeError
 
 import requests
 
